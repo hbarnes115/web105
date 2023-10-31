@@ -1,0 +1,135 @@
+:root {
+    --background-light: rgb(202, 226, 189);
+    --background-dark: rgb(2, 33, 10);
+    --text: rgb(255, 255, 255);
+    --accent: rgb(39, 85, 35);
+    --text-light: rgb(202, 226,189);
+}
+
+
+/* division styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size:large;
+    background-color:rgb(202, 226,189);
+    margin: 0;
+    padding: 0;
+    color: rgb(39, 85, 35);
+    line-height: 1.5;
+    /* Dark text color */
+}
+
+nav {
+    text-align: center;
+    line-height: 3;
+    padding: 10px;
+}
+
+.style {
+    width: 30%;
+    display: block;
+    float: right;
+    margin-left: 15px;
+}
+
+.container {
+    max-width: 1080px;
+    width: 90%;
+    margin: 10px auto;
+    overflow: auto;
+    background: var(--background-light);
+}
+
+.text {
+    max-width: 1080px;
+    width: 90%;
+    margin: 20px auto;
+    /* Add margin to create separation from the edge */
+    overflow: auto;
+    background: var(--background-light);
+}
+
+#front-main {
+    float: left;
+    width: 70%;
+    margin: 10px 15px 10px 5px;
+    ;
+}
+
+#front-aside {
+    clear: both;
+    float: right;
+    width: 22%;
+    margin: 10px 5px;
+    padding: 10px;
+}
+
+main {
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+}
+
+/* button styling */
+
+nav a {
+    background: var(--background-dark);
+    border: 2px solid var(--background-dark);
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    color: var(--text-light);
+}
+
+nav a:hover,
+#current {
+    background: var(--background-light);
+    color: var(--accent);
+}
+
+/* text styling */
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    color: var(--accent);
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    color: var(--accent);
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-weight: bold;
+    color: var(--accent);
+}
+
+dt {
+    font-weight: bold;
+    color: var(--accent);
+}
+
+
+/* images */
+img {
+    /* this code centers the image */
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+}

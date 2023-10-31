@@ -1,0 +1,68 @@
+body {
+    background: rgb(0, 135, 117);
+    background: linear-gradient(90deg, rgb(9, 2, 132) 0%, rgb(41, 67, 135) 0%, rgb(38, 119, 226) 100%);
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    color: antiquewhite;
+    /*Text shadow, CSS3 code*/
+    text-shadow: 5px 5px 2px #0e0221;
+}
+
+#columns {
+    -moz-column-count: 3;
+    -moz-column-gap: 5px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 5px;
+    column-count: 3;
+    column-gap: 5px;
+   /*Border code, CSS3. No discernible effects, unknown cause.*/
+    -webkit-border-radius: 10px 10px 10px 10px;
+        border-radius: 10px 10px 10px 10px;
+    color: antiquewhite;
+}
+
+.card {
+    -webkit-box-shadow: 10px 5px 4px 4px #191d93;
+    box-shadow: 10px 5px 4px 4px #191d93;
+   /*Color code, CSS3*/
+    background-color: rgba(1, 12, 84, 100);
+      color: rgba(1, 12, 84, 100);
+    padding: 10px;
+    min-height: 500px;
+    width: 29%;
+    margin: 20px 1%;
+    float: left;
+    /*font face, CSS3 code*/
+    @font-face {
+            font-family: "Arial";
+            src: url("Helvetica.eot?") format("eot"),
+                url("Helvetica.woff") format("woff"),
+                url("Helvetica.ttf") format("truetype");
+        }
+    line-height: 1.5;
+    color: antiquewhite;
+}
+
+.card img{
+    /*ease in code, CSS3. It doesn't seem to work, but it's here at least.*/
+    -webkit-transition: width 2s ease-in;
+        -moz-transition: width 2s ease-in;
+        -ms-transition: width 2s ease-in;
+        -o-transition: width 2s ease-in;
+        transition: width 2s ease-in;
+    display:block;
+    width: 80%;
+    margin: 10px auto;
+    /*Border box styling from Meri's code*/
+    -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      /*Outline styling, CSS3 code*/
+    outline: 5px ridge #100129;
+        outline-offset: 3px;
+}

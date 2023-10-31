@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color:aqua ;
+}
+
+nav {
+    text-align: center
+    color aqua;
+}
+
+nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(61, 145, 219);
+    margin: 5px 15px;
+}
+
+#creating,
+#styling,
+#calendar {
+    width: 90%;
+    margin: 20px auto;
+    border: 3px solid rgb(61, 145, 219);
+}
+
+#creating td,
+#styling td,
+#styling th,
+#calendar td,
+#calendar th {
+    border: 1px solid rgb(61, 145, 219);
+    height: 20px;
+}
+
+#styling,
+#calendar {
+    border-collapse: collapse;
+}
+
+#styling th {
+    color: rgb(61, 145, 219);
+}
+
+#styling td {
+    text-align: center;
+    color:aqua
+}
+
+#calendar td,
+#calendar th {
+    width: 140px;
+    height: 140px;
+    color:aqua;
+}
+
+#calendar th {
+    background: rgb(61, 145, 219);
+    color: rgb(0, 0, 0);
+    border: 1px solid aqua;
+}
+
+#calendar td {
+    text-align: right;
+    vertical-align: top;
+}
