@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="container">
+      <h1>Welcome to the Opera Populaire</h1>
+      <h3>Now showing Don Juan Triumphant, Hannibal, and Il Muto <br>
+        Starring Christine Daae and Carlotta Giudicelli
+      </h3>
+        <label for="fname">First name:</label><br /><br>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          autofocus
+          required
+          value="Your First Name"
+          size="50"
+        /><br /><br>
+        <label for="lname">Last name:</label><br /><br>
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          required
+          value="Your Last Name"
+          size="50"
+        /><br /><br />
+       <h2>Enter your ticket type</h2>
+        <form>
+ 
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="child">
+  <label for="vehicle1"> Child</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Adult">
+  <label for="vehicle2"> Adult</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Senior">
+  <label for="vehicle3"> Senior</label><br>
+   <input type="checkbox" id="vehicle3" name="vehicle3" value="Patron">
+  <label for="vehicle3"> Patron</label><br><br>
+
+  <form>
+
+    <h2>Do you have a Reserved Ticket?</h2>
+    <select id="cars" name="cars"> required
+  <option value="volvo">Yes</option>
+  <option value="saab">No</option>
+</select>
+   
+<h2>Which show are you here to see?</h2>
+<input type="text" id="showname" placeholder="Don Juan Triumphant">
+
+    <h2>Select your Box Number</h2>
+  <input type="radio" id="html" name="Box Number" value="Box 1">
+  <label for="html">Box 1</label><br>
+  <input type="radio" id="css" name="Box Number" value="Box 2">
+  <label for="Box 2">Box 2</label><br>
+  <input type="radio" id="javascript" name="Box Number" value="Box 3">
+  <label for="Box 3">Box 3</label> <br>
+    <input type="radio" id="javascript" name="Box Number" value="Box 4">
+  <label for="Box 4">Box 4</label> <br>
+     <input type="radio" id="javascript" name="Box Number" value="Box 5" disabled>
+  <label for="Box 5">Box 5</label><br>
+    <input type="radio" id="javascript" name="Box Number" value="Box 6">
+  <label for="Box 6">Box 6</label><br>
+</form>
+
+  <h2>*Box 5 is permanently reserved for The Opera Ghost</h2>
+
+  <h2>Contact information for Online Ticketing</h2>
+  <input type="email" id="contact" required><br><br>
+</form> 
+        <input type="submit" value="Click, if you dare . . ." />
+      </form>
+    </header>
+    <main class="container">
+      <p>Remember that there are worse things than a shattered chandelier.</p>
+    </main>
+    <footer class="container">
+      <p>&copy; 2023 O.G. (Opera Ghost)</p>
+    </footer>
+  </body>
+</html>
